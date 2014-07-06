@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A53BECF718317ADC000B96A3 /* CheckListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A53BECF618317ADC000B96A3 /* CheckListItem.m */; };
+		A56748B5185A672A001986F1 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56748B4185A672A001986F1 /* ItemDetailViewController.m */; };
+		A589E04F187C8AB800F2EB2B /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A589E04E187C8AB800F2EB2B /* ListDetailViewController.m */; };
+		A5AEFDEF187831D3008CC0A0 /* AllListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AEFDEE187831D3008CC0A0 /* AllListsViewController.m */; };
+		A5AEFDF218797D7D008CC0A0 /* Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AEFDF118797D7D008CC0A0 /* Checklist.m */; };
 		A5CE11AD1813D1B600B60228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CE11AC1813D1B600B60228 /* Foundation.framework */; };
 		A5CE11AF1813D1B600B60228 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CE11AE1813D1B600B60228 /* CoreGraphics.framework */; };
 		A5CE11B11813D1B600B60228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CE11B01813D1B600B60228 /* UIKit.framework */; };
@@ -14,7 +19,7 @@
 		A5CE11B91813D1B600B60228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE11B81813D1B600B60228 /* main.m */; };
 		A5CE11BD1813D1B600B60228 /* CheckListsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE11BC1813D1B600B60228 /* CheckListsAppDelegate.m */; };
 		A5CE11C01813D1B600B60228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CE11BE1813D1B600B60228 /* Main.storyboard */; };
-		A5CE11C31813D1B600B60228 /* CheckListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE11C21813D1B600B60228 /* CheckListsViewController.m */; };
+		A5CE11C31813D1B600B60228 /* CheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE11C21813D1B600B60228 /* CheckListViewController.m */; };
 		A5CE11C51813D1B600B60228 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CE11C41813D1B600B60228 /* Images.xcassets */; };
 		A5CE11CC1813D1B600B60228 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CE11CB1813D1B600B60228 /* XCTest.framework */; };
 		A5CE11CD1813D1B600B60228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CE11AC1813D1B600B60228 /* Foundation.framework */; };
@@ -34,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A53BECF518317ADC000B96A3 /* CheckListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListItem.h; sourceTree = "<group>"; };
+		A53BECF618317ADC000B96A3 /* CheckListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListItem.m; sourceTree = "<group>"; };
+		A56748B3185A672A001986F1 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailViewController.h; path = checklists/ItemDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		A56748B4185A672A001986F1 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailViewController.m; path = checklists/ItemDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		A589E04D187C8AB800F2EB2B /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListDetailViewController.h; path = checklists/ListDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		A589E04E187C8AB800F2EB2B /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListDetailViewController.m; path = checklists/ListDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		A5AEFDED187831D3008CC0A0 /* AllListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllListsViewController.h; path = checklists/AllListsViewController.h; sourceTree = SOURCE_ROOT; };
+		A5AEFDEE187831D3008CC0A0 /* AllListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllListsViewController.m; path = checklists/AllListsViewController.m; sourceTree = SOURCE_ROOT; };
+		A5AEFDF018797D7D008CC0A0 /* Checklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checklist.h; path = checklists/Checklist.h; sourceTree = SOURCE_ROOT; };
+		A5AEFDF118797D7D008CC0A0 /* Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Checklist.m; path = checklists/Checklist.m; sourceTree = SOURCE_ROOT; };
 		A5CE11A91813D1B600B60228 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CE11AC1813D1B600B60228 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5CE11AE1813D1B600B60228 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +60,8 @@
 		A5CE11BB1813D1B600B60228 /* CheckListsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckListsAppDelegate.h; sourceTree = "<group>"; };
 		A5CE11BC1813D1B600B60228 /* CheckListsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckListsAppDelegate.m; sourceTree = "<group>"; };
 		A5CE11BF1813D1B600B60228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5CE11C11813D1B600B60228 /* CheckListsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckListsViewController.h; sourceTree = "<group>"; };
-		A5CE11C21813D1B600B60228 /* CheckListsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckListsViewController.m; sourceTree = "<group>"; };
+		A5CE11C11813D1B600B60228 /* CheckListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckListViewController.h; sourceTree = "<group>"; };
+		A5CE11C21813D1B600B60228 /* CheckListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckListViewController.m; sourceTree = "<group>"; };
 		A5CE11C41813D1B600B60228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5CE11CA1813D1B600B60228 /* ChecklistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecklistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CE11CB1813D1B600B60228 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,11 +127,21 @@
 		A5CE11B21813D1B600B60228 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
+				A5AEFDED187831D3008CC0A0 /* AllListsViewController.h */,
+				A5AEFDEE187831D3008CC0A0 /* AllListsViewController.m */,
+				A56748B3185A672A001986F1 /* ItemDetailViewController.h */,
+				A56748B4185A672A001986F1 /* ItemDetailViewController.m */,
 				A5CE11BB1813D1B600B60228 /* CheckListsAppDelegate.h */,
 				A5CE11BC1813D1B600B60228 /* CheckListsAppDelegate.m */,
 				A5CE11BE1813D1B600B60228 /* Main.storyboard */,
-				A5CE11C11813D1B600B60228 /* CheckListsViewController.h */,
-				A5CE11C21813D1B600B60228 /* CheckListsViewController.m */,
+				A5CE11C11813D1B600B60228 /* CheckListViewController.h */,
+				A5CE11C21813D1B600B60228 /* CheckListViewController.m */,
+				A5AEFDF018797D7D008CC0A0 /* Checklist.h */,
+				A5AEFDF118797D7D008CC0A0 /* Checklist.m */,
+				A53BECF518317ADC000B96A3 /* CheckListItem.h */,
+				A53BECF618317ADC000B96A3 /* CheckListItem.m */,
+				A589E04D187C8AB800F2EB2B /* ListDetailViewController.h */,
+				A589E04E187C8AB800F2EB2B /* ListDetailViewController.m */,
 				A5CE11C41813D1B600B60228 /* Images.xcassets */,
 				A5CE11B31813D1B600B60228 /* Supporting Files */,
 			);
@@ -205,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5CE11A41813D1B600B60228 /* Build configuration list for PBXProject "Checklists" */;
+			buildConfigurationList = A5CE11A41813D1B600B60228 /* Build configuration list for PBXProject "checklists" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CE11C31813D1B600B60228 /* CheckListsViewController.m in Sources */,
+				A5CE11C31813D1B600B60228 /* CheckListViewController.m in Sources */,
 				A5CE11B91813D1B600B60228 /* main.m in Sources */,
+				A5AEFDEF187831D3008CC0A0 /* AllListsViewController.m in Sources */,
+				A589E04F187C8AB800F2EB2B /* ListDetailViewController.m in Sources */,
 				A5CE11BD1813D1B600B60228 /* CheckListsAppDelegate.m in Sources */,
+				A53BECF718317ADC000B96A3 /* CheckListItem.m in Sources */,
+				A56748B5185A672A001986F1 /* ItemDetailViewController.m in Sources */,
+				A5AEFDF218797D7D008CC0A0 /* Checklist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5CE11A41813D1B600B60228 /* Build configuration list for PBXProject "Checklists" */ = {
+		A5CE11A41813D1B600B60228 /* Build configuration list for PBXProject "checklists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5CE11D91813D1B600B60228 /* Debug */,
@@ -461,6 +491,7 @@
 				A5CE11DD1813D1B600B60228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5CE11DE1813D1B600B60228 /* Build configuration list for PBXNativeTarget "ChecklistsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +500,7 @@
 				A5CE11E01813D1B600B60228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
